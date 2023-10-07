@@ -565,7 +565,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: #AD8B73;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -592,6 +592,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li.timeline-unverted {
   text-align: right;
 }
+
+.timeline > .timeline-unverted > li.timeline-body {
+  text-align: left;
+}
+
 @media screen and (max-width: 768px) {
   .timeline > li.timeline-unverted {
     text-align: left;
@@ -1322,5 +1327,33 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+.tabs_name {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.tabs_item {
+  display: none;
+}
+.tabs_content {
+  order: 1;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 0.9em;
+  display: none;
+}
+.tabs_item:checked + .tabs_name {
+  color: #c29606;
+  border-bottom: 2px solid #c29606;
+}
+.tabs_item:checked + .tabs_name + .tabs_content {
+  display: initial;
+}
+
 
 /*# sourceMappingURL=style.css.map */
