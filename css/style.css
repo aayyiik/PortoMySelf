@@ -304,6 +304,18 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+
+#fh5co-project {
+  padding: 3em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-project
+ {
+    padding: 3em 0;
+  }
+}
+
 #fh5co-started {
   border-bottom: none;
 }
@@ -1354,6 +1366,7 @@ input[type="text"] {
 .tabs_item:checked + .tabs_name + .tabs_content {
   display: initial;
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
