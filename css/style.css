@@ -363,67 +363,74 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.5);
 }
 
+
+.back-button {
+  background-color: #AD8B73; /* Warna tombol */
+  color: #fff; /* Warna teks */
+  padding: 10px 20px; /* Padding tombol */
+  border: none; /* Hapus garis tepi tombol */
+  border-radius: 5px; /* Membuat sudut tombol lebih lembut */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+  cursor: pointer; /* Mengubah kursor saat dihover */
+  font-size: medium;
+}
+.back-button:hover {
+  background-color: #fff; /* Warna saat tombol dihover */
+}
+
+
 /* Sidebar */
-#page .sidebar {
+.sidebar {
   position: fixed;
-  top: 50%;
+  top: 80%;
+  margin-left: -40px;
   transform: translateY(-100%);
-  background-color: #AD8B73;
+  background-color: #FFFBE9;
+  z-index: 2;
 }
 
 .nav-item{
   position: relative;
+  list-style-type: none;
 }
-/* 
-#fh5co-header .display-tc h1 span:after,
-.fh5co-cover .display-tc h1 span:after {
-  position: absolute;
-  top: 40px;
-  right: 0;
-  width: 30px;
-  height: 4px;
-  content: '';
-  background: #fff;
-  margin-right: -30px;
-} */
 
 .nav-item:not(:last-child){
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
+
 .nav-link{
-  color: #46b8da;
+  color: black;
   text-decoration: none;
   font-size: 25px;
-
 }
 
 .nav-link .fas {
-  color: #000;
+  color: #AD8B73;
 }
 
-/* .nav-link i{
-  width: 70px;
-  height: 70px;
+.nav-link i{
+  width: 50px;
+  height: 50px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #AD8B73;
+  background-color: #FFFBE9;
   transition: all 0.3s;
 }
 
 .nav-item:hover i {
   transform: scale(1.1);
   box-shadow: 10px 0 20px rgb(173, 139, 115);
-} */
-/* 
+}
+
 .nav-link .title{
   position: absolute;
-  background-color: #AD8B73;
+  background-color: #FFFBE9;
   height: 100%;
-  padding-right: 65px;
+  padding-right: 30px;
   padding-left: 20px;
-  line-height: 70px;
+  line-height: 50px;
   transform: translateX(-100%);
   z-index: -1;
   transition: all 0.3s;
@@ -431,7 +438,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .nav-item:hover .title{
   transform: translateX(0);
-} */
+}
 
 
 /*  */
