@@ -84,7 +84,10 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #AD8B73;
 }
 
-
+.d-block.w-100 {
+  height: 500px;
+  width: 100px;/* Anda bisa mengganti angka ini sesuai kebutuhan */
+}
 
 #fh5co-header,
 .fh5co-cover {
