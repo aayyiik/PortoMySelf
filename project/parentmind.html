@@ -122,7 +122,6 @@
                         </div>
                       </div>
                       <br>
-
                     <h2>ParentMind</h2>
                     <p>
                         ParentMind is an Android-based information system aimed at providing parenting education to parents on child-rearing according to expert guidelines and trusted sources. This project is a collaborative effort by our team. The application offers various essential features, including an authentication page, a home page, articles, videos, and a discussion forum. Additionally, a chat consultation feature is currently in development. With this application, we are committed to providing guidance and support to parents as they play a crucial role in their children's lives.
@@ -131,32 +130,6 @@
             </div>
         </div>
     </div>  
-
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        function plusSlides(n) {
-           showSlides(slideIndex += n);
-        }
-        function currentSlide(n) {
-           showSlides(slideIndex = n);
-        }
-        function showSlides(n) {
-           var i;
-           var slides = document.getElementsByClassName("mySlides");
-           var dots = document.getElementsByClassName("dot");
-           if (n > slides.length) {slideIndex = 1}
-           if (n < 1) {slideIndex = slides.length}
-           for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-           }
-           for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-           }
-           slides[slideIndex-1].style.display = "block";
-           dots[slideIndex-1].className += " active";
-        }
-     </script>
 
     <!-- jQuery -->
     <script src="../js/jquery.min.js"></script>
